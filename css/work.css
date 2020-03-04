@@ -89,12 +89,14 @@ ul img {
   margin-bottom: 42px;
 }
 main {
-  margin: 80px 80px;
+  margin-left: 100px;
+  margin-right: 50px;
+  padding-bottom: 30px;
 }
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 90px;
+  grid-row-gap: 100px;
 }
 .box {
   width: 355px;
@@ -185,4 +187,7 @@ i {
   padding-bottom: 6px;
   font-size: 24px;
   padding-right: 3.5px;
+}
+.space {
+  margin-top: 10px;
 }
