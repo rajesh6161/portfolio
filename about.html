@@ -10,7 +10,9 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link rel="stylesheet" href="./css/about.css" />
     <title>About Me</title>
   </head>
 
@@ -54,7 +56,7 @@
       </div>
 
       <div class="box animatedParent">
-        <div class="box-1">
+        <div data-aos="fade-right" data-aos-duration="1000" class="box-1">
           <p>freeCodeCamp</p>
 
           <br />
@@ -70,7 +72,7 @@
             certification on this site.
           </p>
         </div>
-        <div class="box-2 ">
+        <div data-aos="flip-up" data-aos-duration="2000" class="box-2 ">
           <p>W3 Schools</p>
 
           <br />
@@ -82,7 +84,7 @@
             ways.
           </p>
         </div>
-        <div class="box-3">
+        <div data-aos="fade-left" data-aos-duration="1000" class="box-3">
           <p>Build Your Own Website The Right Way</p>
 
           <br />
@@ -96,4 +98,7 @@
       </div>
     </main>
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>
