@@ -94,12 +94,12 @@ main {
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-row-gap: 20px;
+  grid-row-gap: 70px;
 }
 .box {
   width: 355px;
   height: 203px;
-  border: 2px solid #000;
+  border: 3px solid rgb(255, 255, 255);
 }
 .box-1 img {
   width: 100%;
@@ -138,4 +138,19 @@ h1 span {
 }
 body {
   background-color: #444;
+}
+.check {
+  margin-top: -30px;
+  margin-bottom: 20px;
+  font-size: 28px;
+  color: #fff;
+  background-color: #333;
+  width: 1270px;
+}
+h2 {
+  color: #fff;
+  padding: 50px;
+}
+.space {
+  padding-bottom: 20px;
 }
