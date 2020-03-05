@@ -138,9 +138,9 @@ main {
   object-fit: cover;
 }
 h1 {
-  margin-top: -20px;
-  margin-bottom: 40px;
-  font-size: 95px;
+  margin-top: 0px;
+  margin-bottom: 35px;
+  font-size: 76px;
   font-weight: 400;
   color: #fff;
 }

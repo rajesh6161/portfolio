@@ -10,8 +10,11 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <link rel="stylesheet" href="./css/work.css" />
+    
     <title>View My Work</title>
   </head>
 
@@ -29,8 +32,8 @@
       <h1>My <span>Work</span></h1>
       <p class="check">Check out some of my projects...</p>
       <div class="grid">
-        <div class="box-1 box">
-          <div class="overlay"></div>
+        <div class="box-1 box" data-aos="zoom-in" data-aos-duration="1000">
+          
           <a href="https://sad-banach-1a466f.netlify.com/"><img src="./img/projects/project1.jpg"/></a>
           <div class="space">
             <p class="project">
@@ -41,7 +44,7 @@
             </p>
           </div>
         </div>
-        <div class="box-2 box">
+        <div class="box-2 box" data-aos="flip-up" data-aos-duration="1000">
           <a href="https://determined-pare-fe030b.netlify.com/"><img src="./img/projects/project2.jpg"/></a>
           <div class="space">
             <p class="project">
@@ -50,7 +53,7 @@
             <p class="github"><a href="https://github.com/rajesh6161/travel-page"><i class="fab fa-github"></i>GitHub</a></p>
           </div>
         </div>
-        <div class="box-3 box">
+        <div class="box-3 box" data-aos="zoom-in" data-aos-duration="1000">
           <a href="https://jolly-morse-c6d1a1.netlify.com/"><img src="./img/projects/project5.jpg"/></a>
           <div class="space">
             <p class="project">
@@ -61,7 +64,7 @@
             </p>
           </div>
         </div>
-        <div class="box-4 box">
+        <div class="box-4 box" data-aos="zoom-in" data-aos-duration="1500">
           <a href="https://awesome-yalow-cb6162.netlify.com/"><img src="./img/projects/drumpad.jpg"/></a>
           <div class="space">
             <p class="project">
@@ -72,7 +75,7 @@
             </p>
           </div>
         </div>
-        <div class="box-5 box">
+        <div class="box-5 box" data-aos="flip-down" data-aos-duration="1500">
           <a href="https://optimistic-shannon-890e7e.netlify.com/"><img src="./img/projects/project6.jpg"/></a>
           <div class="space">
             <p class="project">
@@ -83,7 +86,7 @@
             </p>
           </div>
         </div>
-        <div class="box-6 box">
+        <div class="box-6 box" data-aos="zoom-in" data-aos-duration="1000">
           <a href="#"><img src="./img/projects/work.jpg"/></a>
           <div class="space">
             <p class="project">
@@ -96,5 +99,9 @@
         </div>
       </div>
     </main>
+    
   </body>
+  <script>
+    AOS.init();
+  </script>
 </html>

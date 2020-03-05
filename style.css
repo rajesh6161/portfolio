@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  /* font-family: "Roboto", serif; */
 }
 body {
   background: url("./img/background.jpg");
@@ -15,7 +16,7 @@ body {
 #name {
   color: white;
   font-weight: 400;
-
+  text-shadow: 2px 2px 0px #333;
   animation-name: movefromRightside;
   animation-duration: 1s;
   animation-timing-function: ease-in;
@@ -50,6 +51,9 @@ section {
   animation-name: movefromBottomside;
   animation-timing-function: ease-out;
   animation-duration: 1s;
+  text-shadow: 2px 2px 2px #333;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 .icons i {
   padding: 25px 10px;
