@@ -43,6 +43,7 @@ input[type="checkbox"]:checked ~ .icon::before {
   content: "menu";
 }
 ul {
+  opacity: 0.95;
   position: fixed;
   top: 0;
   left: 0;
@@ -51,7 +52,7 @@ ul {
   box-sizing: border-box;
   width: 300px;
   height: 100vh;
-  background: #000;
+  background: #333;
   z-index: 1000000;
   overflow-y: auto;
   transition: 0.5s;
@@ -99,4 +100,51 @@ ul img {
 body {
   background-color: #444;
   overflow-x: hidden;
+}
+main {
+  margin: 80px 80px 0px 80px;
+}
+main h1 {
+  font-size: 90px;
+  color: #fff;
+  font-weight: 400;
+}
+main h1 .me {
+  color: #eece1a;
+}
+h3 {
+  font-size: 28px;
+  font-weight: 400;
+  color: #fff;
+  background-color: #333;
+}
+.common {
+  border: 3px solid #fff;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 400;
+  text-align: center;
+  padding: 30px;
+  width: 560px;
+}
+.common:hover {
+  background-color: #eece1a;
+  transition: 0.5s;
+  color: #000;
+  cursor: pointer;
+}
+
+.email {
+  float: left;
+}
+.phone {
+  float: right;
+}
+.address {
+  float: right;
+  margin-right: 400px;
+  margin-top: 45px;
+}
+.grid {
+  margin-top: 45px;
 }
