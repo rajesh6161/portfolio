@@ -24,6 +24,8 @@ input[type="checkbox"] {
   cursor: pointer;
   background: #000;
   pointer-events: none;
+  border-radius: 50%;
+  border: 2px solid #eece1a;
 }
 .icon::before {
   content: "close";
@@ -91,7 +93,6 @@ ul img {
 main {
   margin-left: 100px;
   margin-right: 50px;
-  margin-bottom: 30px;
 }
 .grid {
   display: grid;
@@ -102,6 +103,9 @@ main {
   width: 355px;
   height: 203px;
   border: 3px solid rgb(255, 255, 255);
+}
+.box:hover {
+  border: 3px solid #eece1a;
 }
 .box-1 img {
   width: 100%;
